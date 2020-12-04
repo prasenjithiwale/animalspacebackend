@@ -29,5 +29,5 @@ def submit():
           
        
     else :
-        return "somrthing went wrong"
-app.run(host='localhost',debug= True)
+        return "App is running succefully"
+app.run(threaded=True,debug= True)
