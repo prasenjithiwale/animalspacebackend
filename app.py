@@ -2,9 +2,11 @@ from flask import Flask,render_template,request
 import pickle
 app = Flask(__name__)
 
+@app.route('/')
+def run():
+      return "<h1>App is running succefully</h1>"
 
-
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/api/', methods=['GET', 'POST'])
 def submit():
     if request.method == "POST":
         val1=int(request.form["val1"])
@@ -21,13 +23,8 @@ def submit():
         with open('my_model','rb') as f:
           model = pickle.load(f)
 
-
         result = model.predict([[val1,val2,val3,val4,val5,val6,val7,val8,val9,val10,val11]])
         return str(result[0])
-
-
-          
-       
     else :
         return "App is running succefully"
 app.run(threaded=True,debug= True)
