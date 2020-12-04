@@ -1,0 +1,27 @@
+Fever,Salivation,paralysis,vomiting,diarrhea,Loss of Weight,cough,cold,respiration,Abortion,joint and muscle pain,Disease
+1,1,1,0,0,0,0,0,0,0,0,Rabies
+1,0,0,0,1,1,0,0,0,0,0,Canine Parvovirus
+0,0,0,1,1,1,0,0,0,0,0,Canine coronavirus
+0,0,0,1,0,0,0,0,1,0,0,Canine distemper
+1,0,0,0,1,0,1,0,1,0,0,Canine influenza 
+0,0,0,0,0,0,0,1,0,1,0,Canine herpesvirus
+1,0,1,0,0,0,0,1,0,1,0,Pseudorabies
+0,0,0,0,1,0,0,0,1,1,0,Canine minute virus
+1,0,0,0,1,0,0,0,0,0,1,Brucellosis
+0,0,0,1,0,1,0,0,0,0,0,Diabetes
+1,0,0,1,1,0,0,0,0,1,0,Diarrhea
+1,1,1,0,0,1,0,0,0,0,1,Rabies
+0,0,0,1,0,1,0,1,0,0,0,Heartworm
+0,0,0,1,0,1,1,0,0,0,0,Hyperthyroidism
+0,0,0,1,0,1,0,0,0,0,0,TB(Bovine Tuberculosis)
+0,0,0,0,0,1,0,0,0,0,0, Tapeworms
+0,1,0,0,1,0,1,0,0,0,0,cancer
+0,0,0,0,0,0,1,0,0,0,0,Choke
+1,0,0,0,0,0,0,0,0,0,1,Anticor
+0,1,0,0,0,0,0,0,1,0,0,Colitis-X
+1,0,0,0,0,0,0,0,0,0,0,Horse Colic
+1,1,0,0,0,0,1,0,1,0,0,Mud Fever
+1,0,0,0,0,0,1,0,1,0,0,Bluetongue(BTV)
+0,0,0,0,0,0,0,0,0,0,0,Calf Diphtheria
+0,0,0,0,1,1,0,0,0,0,0,Pseudocowpox
+0,1,0,0,0,0,0,0,1,0,0,Liver Fluke
