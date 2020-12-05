@@ -4,10 +4,6 @@ import os
 app = Flask(__name__)
 
 
-@app.route('/favicon.ico')
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
-
 @app.route('/')
 def run():
       return "<h1>App is running succefully</h1>"
@@ -33,4 +29,4 @@ def submit():
         return str(result[0])
     else :
         return "App is running succefully"
-app.run(threaded=True,debug= True)
+app.run()
