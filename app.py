@@ -29,4 +29,4 @@ def submit():
         return str(result[0])
     else :
         return "App is running succefully"
-app.run()
+app.run(host='0.0.0.0',debug= True)
